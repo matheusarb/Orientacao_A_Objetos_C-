@@ -1,0 +1,19 @@
+﻿Interface
+
+1. Utilizada para criar exclusivamente métodos obrigatórios;
+
+2. Uma classe pode implementar múltiplas Interfaces;
+
+3. Os métodos da Interface não possuem o corpo da função (o que vem entre as chaves), sejam cálculos, condicionais, laços e demais ações;
+3.1. Ex.: double CALCULAR(double numero);
+		  string ESCREVER();
+		  void MENSAGEM(string nome, int idade);
+
+4. Em C#, um método criado na Interface é automaticamente abstract(obrigatório para as classes que herdarem dele). O acessor public é necessário declarar
+4.1. double CALCULAR(double numero); => public abstract double CALCULAR(double numero);
+
+5. Toda Interface tem a inicial I, seguida do nome da interface:
+	IPadrao
+	ICalculo
+	IMensagem
+	 
