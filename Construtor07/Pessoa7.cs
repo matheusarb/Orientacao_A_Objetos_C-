@@ -25,4 +25,9 @@ class Pessoa7
     {
         Console.WriteLine($"Olá {nome}, vc tem {idade} anos");
     }
+
+//    public void teste()
+//    {
+//        Console.WriteLine($"Olá {}, vc tem {} anos");
+//    }
 }
