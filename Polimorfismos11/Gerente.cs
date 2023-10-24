@@ -7,4 +7,5 @@ class Gerente : Imposto
     {
         Console.WriteLine($"Desconto Gerente do vale alimentação R${salario * 0.15}");
     }
+
 }
