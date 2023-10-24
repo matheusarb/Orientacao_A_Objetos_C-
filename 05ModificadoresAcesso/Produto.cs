@@ -6,6 +6,7 @@
          * protected -> '' e ''    '' em classes onde são criados ou herdados
      */
 
-    public string? Nome { get; set; }
-    private double Valor { get; set; }
+    protected string? herdeiro;
+    public string? Nome { get { return Nome; } set { Nome = value; } }
+    private double Valor;
 }
