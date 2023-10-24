@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Encapsulamento06;
+namespace Encapsulamento06.Model;
 
 class Program
 {

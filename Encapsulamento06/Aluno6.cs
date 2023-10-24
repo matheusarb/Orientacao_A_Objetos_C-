@@ -1,6 +1,8 @@
 ﻿using System;
 
-class Aluno6
+namespace Encapsulamento06.Model;
+
+public class Aluno6
 {
     private double Nota1, Nota2;
 
